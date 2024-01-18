@@ -1,0 +1,14 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+@import "./base/resets";
+@import "./base/fonts";
+@import "./layout/header";
+@import "./layout/mainIndex";
+@import "./layout/mainAboutUs";
+@import "./layout/mainContact";
+@import "./layout/mainPortfolio";
+@import "./layout/mainReviews";
+@import "./layout/footer";
+
+@import "./components/bootstrap";
