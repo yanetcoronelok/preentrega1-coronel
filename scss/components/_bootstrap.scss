@@ -1,12 +1,19 @@
-.card-background{
-    background-color: map-get($map: $colors, $key: color1 );
-} 
-
-.card-img-top{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover; 
+.card-background {
+    background-color: map-get($map: $colors, $key: color1);
 }
+
+.card {
+    overflow: hidden;
+    .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    img:hover {
+        transform: scale(2);
+    }
+}
+
 
 .review-card-foto {
     width: 150px;
