@@ -71,3 +71,11 @@ header div nav ul {
   header div nav ul {
     font-size: large;
     gap: 1.25rem; } }
+
+footer {
+  background-color: #7d50487c; }
+  footer div div div a img {
+    width: 10rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 10px; }
