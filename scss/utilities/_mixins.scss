@@ -4,3 +4,15 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin grid-galeria($col, $row, $justify, $align, $areas, $columngap, $rowgap, $margintop){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    justify-content: $justify;
+    align-content: $align;
+    grid-template-areas: $areas;
+    column-gap: $columngap;
+    row-gap: $rowgap;
+    margin-top: $margintop;
+}
