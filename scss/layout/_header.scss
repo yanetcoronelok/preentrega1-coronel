@@ -8,22 +8,115 @@ header {
     div {
         div {
             img {
-                width: 20%;
-                height: 20%;
+                width: 60%;
+                height: 60%;
                 padding: 10px;
                 margin: 10px;
             }
         }
-        nav{
-            ul{
-                font-size: smaller;
+
+        nav {
+            ul {
+                font-size: small;
                 gap: 10px;
-                li{
-                    &:hover{
-                        background-color: map-get($map: $colors , $key:color2 );
+
+                li {
+                    &:hover {
+                        background-color: map-get($map: $colors , $key: color2);
                         border-radius: 1rem;
                         padding: .3125rem;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:375px) {
+    header {
+        div {
+            div {
+                img {
+                    width: 50%;
+                    height: 50%;
+                    padding: 10px;
+                    margin: 10px;
+                }
+            }
+
+            nav {
+                ul {
+                    font-size: small;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:428px) {
+    header {
+        div {
+            div {
+                img {
+                    width: 50%;
+                    height: 50%;
+                    padding: 10px;
+                    margin: 10px;
+                }
+            }
+
+            nav {
+                ul {
+                    font-size: medium;
+                    gap: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px) {
+    header {
+        div {
+            div {
+                img {
+                    width: 30%;
+                    height: 30%;
+                    padding: 10px;
+                    margin: 10px;
+                }
+            }
+
+            nav {
+                ul {
+                    font-size: medium;
+                    gap: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1024px) {
+    header {
+        div {
+            div {
+                img {
+                    width: 25%;
+                    height: 25%;
+                    padding: 10px;
+                    margin: 10px;
+                }
+            }
+
+            nav {
+                ul {
+                    font-size: large;
+                    gap: 1.25rem;
                 }
             }
         }
