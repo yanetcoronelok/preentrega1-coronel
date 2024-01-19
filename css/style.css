@@ -72,6 +72,48 @@ header div nav ul {
     font-size: large;
     gap: 1.25rem; } }
 
+.contenedor-map-texto, .contenedor-formulario-texto {
+  border-radius: 20px;
+  background-color: #e3c0ba4d;
+  padding: 2rem;
+  margin: 10px 65px 10px 65px; }
+
+iframe {
+  border-radius: 20px; }
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contenedor-formulario button {
+    font-size: 20px;
+    background-color: #7d50487c;
+    border-radius: 15px;
+    width: 75%;
+    align-self: center;
+    margin: 10px; }
+    .contenedor-formulario button:hover {
+      background-color: #484c7d7c; }
+
+@media (min-width: 1024px) {
+  .mapa-formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start; }
+  .contenedor-map, .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 50%;
+    margin: 20px 0px 20px 0px; }
+  form {
+    width: 90%;
+    margin-bottom: 40px; } }
+
 footer {
   background-color: #7d50487c; }
   footer div div div a img {
