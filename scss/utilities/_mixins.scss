@@ -5,14 +5,55 @@
     align-items: $align;
 }
 
-@mixin grid-galeria($col, $row, $justify, $align, $areas, $columngap, $rowgap, $margintop){
+@mixin grid-galeria ($width, $col, $row, $areas, $rowgap, $columngap, $justify, $margintop) {
     display: grid;
+    width: $width;
     grid-template-columns: $col;
-    grid-template-rows: $row;
-    justify-content: $justify;
-    align-content: $align;
-    grid-template-areas: $areas;
-    column-gap: $columngap;
+    grid-auto-rows: $row;
+    grid-template-areas: $areas ;
     row-gap: $rowgap;
+    column-gap: $columngap;
+    justify-content: $justify;
     margin-top: $margintop;
+    
+
+    .img1 {
+        grid-area: img1;
+    }
+
+    .img2 {
+        grid-area: img2;
+    }
+
+    .img3 {
+        grid-area: img3;
+    }
+
+    .img4 {
+        grid-area: img4;
+    }
+
+    .img5 {
+        grid-area: img5;
+    }
+
+    .img6 {
+        grid-area: img6;
+    }
+
+    .img7 {
+        grid-area: img7;
+    }
+
+    .img8 {
+        grid-area: img8;
+    }
+
+    .img9 {
+        grid-area: img9;
+    }
+
+    .img10 {
+        grid-area: img10;
+    }
 }

@@ -114,16 +114,27 @@ iframe {
     width: 90%;
     margin-bottom: 40px; } }
 
+.imagen-galeria {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .imagen-galeria img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; }
+    .imagen-galeria img:hover {
+      transform: scale(2); }
+
 .galeria {
   display: grid;
+  width: 75%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr;
-  justify-content: center;
-  align-content: center;
+  grid-auto-rows: 15.625rem;
   grid-template-areas: "img1 img2 img3" "img4 img2 img5" "img6 img7 img8" "img9 img7 img10";
-  column-gap: 10px;
-  row-gap: 5px;
-  margin-top: 50px; }
+  row-gap: 0.3125rem;
+  column-gap: 0.625rem;
+  justify-content: center;
+  margin-top: 3.125rem; }
   .galeria .img1 {
     grid-area: img1; }
   .galeria .img2 {
@@ -145,44 +156,68 @@ iframe {
   .galeria .img10 {
     grid-area: img10; }
 
-.imagen-galeria {
-  width: 100%;
-  height: 100%; }
-  .imagen-galeria img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px; }
+@media (max-width: 1024px) {
+  .galeria {
+    display: grid;
+    width: 75%;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 15.625rem;
+    grid-template-areas: "img1 img1" "img1 img1" "img6 img6" "img6 img6" "img2 img2" "img2 img2" "img3 img3" "img3 img3" "img4 img4" "img4 img4" "img5 img5" "img5 img5" "img7 img7" "img7 img7" "img8 img8" "img8 img8" "img9 img9" "img9 img9" "img10 img10" "img10 img10";
+    row-gap: 0.3125rem;
+    column-gap: 0.625rem;
+    justify-content: center;
+    margin-top: 3.125rem; }
+    .galeria .img1 {
+      grid-area: img1; }
+    .galeria .img2 {
+      grid-area: img2; }
+    .galeria .img3 {
+      grid-area: img3; }
+    .galeria .img4 {
+      grid-area: img4; }
+    .galeria .img5 {
+      grid-area: img5; }
+    .galeria .img6 {
+      grid-area: img6; }
+    .galeria .img7 {
+      grid-area: img7; }
+    .galeria .img8 {
+      grid-area: img8; }
+    .galeria .img9 {
+      grid-area: img9; }
+    .galeria .img10 {
+      grid-area: img10; } }
 
 @media (max-width: 425px) {
-  main section {
+  .galeria {
     display: grid;
+    width: 85%;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-auto-rows: 9rem;
+    grid-template-areas: "img1" "img2" "img1" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10";
+    row-gap: 0.3125rem;
+    column-gap: 0.625rem;
     justify-content: center;
-    align-content: center;
-    grid-template-areas: "img2" "img1" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10";
-    column-gap: 10px;
-    row-gap: 5px;
-    margin-top: 50px; }
-    main section .img1 {
+    margin-top: 3.125rem; }
+    .galeria .img1 {
       grid-area: img1; }
-    main section .img2 {
+    .galeria .img2 {
       grid-area: img2; }
-    main section .img3 {
+    .galeria .img3 {
       grid-area: img3; }
-    main section .img4 {
+    .galeria .img4 {
       grid-area: img4; }
-    main section .img5 {
+    .galeria .img5 {
       grid-area: img5; }
-    main section .img6 {
+    .galeria .img6 {
       grid-area: img6; }
-    main section .img7 {
+    .galeria .img7 {
       grid-area: img7; }
-    main section .img8 {
+    .galeria .img8 {
       grid-area: img8; }
-    main section .img9 {
+    .galeria .img9 {
       grid-area: img9; }
-    main section .img10 {
+    .galeria .img10 {
       grid-area: img10; } }
 
 footer {
