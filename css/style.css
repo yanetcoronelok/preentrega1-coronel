@@ -12,3 +12,72 @@ body {
     font-family: 'Dancing Script', cursive; }
   body h2 {
     font-family: 'Dancing Script', cursive; }
+
+header div img {
+  width: 10rem;
+  height: 6rem;
+  padding: 10px;
+  margin: 10px; }
+
+.header-background {
+  background-image: url(../assets/images/backgrounds/backgrounds5.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.menu ul {
+  font-size: smaller;
+  gap: 10px; }
+  .menu ul li:hover {
+    background-color: #7d50487c;
+    border-radius: 1rem;
+    padding: 5px; }
+
+@media (min-width: 375px) {
+  header div img {
+    width: 11rem;
+    height: 6rem;
+    padding: 10px;
+    margin: 10px; }
+  nav ul {
+    font-size: small;
+    gap: 10px; } }
+
+@media (min-width: 428px) {
+  header div img {
+    width: 15rem;
+    height: 9rem;
+    padding: 10px;
+    margin: 10px; }
+  nav ul {
+    font-size: medium;
+    gap: 1.25rem; } }
+
+@media (min-width: 768px) {
+  header div img {
+    width: 18rem;
+    height: 11rem;
+    padding: 10px;
+    margin: 10px; }
+  nav ul {
+    font-size: medium;
+    gap: 1.6875rem; } }
+
+@media (min-width: 1024px) {
+  header div img {
+    width: 20rem;
+    height: 12rem;
+    padding: 15px;
+    margin: 15px; }
+  nav ul {
+    font-size: large;
+    gap: 2rem;
+    padding: 15px;
+    margin: 15px; } }
+
+footer {
+  background-color: #7d50487c; }
+  footer div div div a img {
+    width: 10rem;
+    height: 10rem;
+    padding: 10px;
+    margin: 10px; }
