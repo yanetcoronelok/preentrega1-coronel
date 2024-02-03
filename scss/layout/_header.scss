@@ -4,6 +4,13 @@
     background-position: center;
 }
 
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 header {
     div {
         div {
@@ -24,7 +31,7 @@ header {
                     &:hover {
                         background-color: map-get($map: $colors , $key: color2);
                         border-radius: 1rem;
-                        padding: .3125rem;
+                        height: 1.5625rem;
                     }
                 }
             }

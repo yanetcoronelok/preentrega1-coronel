@@ -18,6 +18,12 @@ body {
   background-size: cover;
   background-position: center; }
 
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 header div div img {
   width: 60%;
   height: 60%;
@@ -30,7 +36,7 @@ header div nav ul {
   header div nav ul li:hover {
     background-color: #7d50487c;
     border-radius: 1rem;
-    padding: .3125rem; }
+    height: 1.5625rem; }
 
 @media (min-width: 375px) {
   header div div img {
