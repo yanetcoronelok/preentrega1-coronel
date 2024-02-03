@@ -9,6 +9,7 @@
         border-radius: 15px;
         &:hover {
             transform: scale(2);
+            transition: transform 2s;
         }
     }
 }

@@ -4,14 +4,140 @@ font-family: 'Poppins', sans-serif; */
 
 body {
     font-family: 'Poppins', sans-serif;
+
     h1 {
         font-family: 'Dancing Script', cursive;
     }
+
     h2 {
         font-family: 'Dancing Script', cursive;
     }
-    
+
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.card-body {
+    blockquote {
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+form {
+    div {
+        label {
+            font-size: 15px;
+        }
+
+        input::placeholder{
+            font-size: 12px;
+        }
+    }
+}
+
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .card-body {
+        blockquote {
+            p {
+                font-size: 15px;
+            }
+        }
+    }
 }
 
 
 
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .card-body {
+        blockquote {
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
