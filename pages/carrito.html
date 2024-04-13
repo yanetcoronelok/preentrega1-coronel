@@ -4,17 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sally Bee PH & Design - Terms and Conditions</title>
+    <title>Sally Bee PH & Design - Cart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <meta name="description"
-        content="Explore our terms and conditions for a clear understanding of our copyright policies, user conduct guidelines, and privacy practices. Stay informed about our commitment to transparency and responsible use of your information.">
-    <meta name="keywords"
-        content="Copyright policies, Intellectual property rights, Privacy practices, Data protection policies, Online legal agreements, Website usage terms, policies, Online security measures, User conduct guidelines">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 </head>
-
-
 
 
 <body class="d-flex flex-column min-vh-100">
@@ -34,7 +31,7 @@
             <nav class="menu navbar d-flex justify-content-center">
                 <ul class="d-flex list-unstyled">
                     <li><a class="text-decoration-none text-white" href="../index.html">Home</a></li>
-                    <li><a class="text-decoration-none text-white" href="#">About us</a></li>
+                    <li><a class="text-decoration-none text-white" href="../pages/about-us.html">About us</a></li>
                     <li><a class="text-decoration-none text-white" href="../pages/portfolio.html">Portfolio</a></li>
                     <li><a class="text-decoration-none text-white" href="../pages/reviews.html">Reviews</a></li>
                     <li><a class="text-decoration-none text-white" href="../pages/contact.html">Contact</a></li>
@@ -45,121 +42,114 @@
         </div>
     </header>
 
-    <main class="flex-grow-1 mb-5">
-        <div class="h1">
-            <h1 class="text-center mt-4 m-5">Terms and Conditions</h1>
-        </div>
-        <!-- historia de la marca -->
+    <div class="h1">
+        <h1 class="text-center mt-4 m-5">My cart</h1>
+    </div>
 
-        <section class="container col-sm-12 col-md-12 col-lg-12 mt-5 mb-5 ps-4 pe-4">
+    <main class="wrapper">
 
+        <aside>
+            <section class="nav-shop">
+                <ul class="menu-shop">
+                    <li><a class="boton-volver" href="./shop.html">
+                            <i class="bi bi-arrow-return-left"></i> Continue shopping </a></li>
+                    <li><button class="boton-carrito boton-menu active text-start" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> My cart
+                            <span class="numerito">0</span></button></li>
+                </ul>
+            </section>
+        </aside>
 
-            <p>Welcome to <strong>Sally Bee Ph&Design</strong>! By accessing and using our website, you agree to comply
-                with
-                and be bound by the following terms and conditions. If you do not agree with these terms, please refrain
-                from using our website.</p>
+        <section class="productos-venta">
+            <h2 class="titulo-principal">My cart</h2>
+            <div class="contenedor-carrito">
+                <p class="carrito-vacio">Your cart is empty <i class="bi bi-emoji-frown"></i> </p>
+                <div class="carrito-productos">
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="../assets/images/naturaleza/vnaturaleza10.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Title</small>
+                            <h3>Foto Naturaleza 1</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Copies</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Price</small>
+                            <p>$1000</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash3"></i></button>
+                    </div>
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="../assets/images/naturaleza/vnaturaleza3.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Title</small>
+                            <h3>Foto Naturaleza 2</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Copies</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Price</small>
+                            <p>$1000</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$2000</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash3"></i></button>
+                    </div>
+                </div>
+            </div>
 
+            <div class="carrito-acciones">
+                <div class="carrito-acciones-izquierda">
+                    <button class="carrito-acciones-vaciar">Empty my cart</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p class="total">Total: </p>
+                        <p class="total" id="total"> $2000</p>
+                    </div>
+                    <button class="carrito-acciones-comprar">Buy</button>
+                </div>
 
-            <article class="container">
+            </div>
 
-                <h3 class="text-center p-4">1. Intellectual Property</h3>
-                <p>All content on this website, including but not limited to text, images, graphics, logos, and
-                    software, is
-                    the property of Sally Bee Ph&Design and is protected by copyright and other intellectual
-                    property laws. You may not reproduce, distribute, modify, or use any content from this website
-                    without
-                    our prior written consent.
-                </p>
-
-                <h3 class="text-center p-4">2. User Conduct</h3>
-                <p>
-                    When using our website, you agree not to:
-                <ol>
-                    <li>
-                        <p>Violate any applicable laws or regulations.</p>
-                    </li>
-                    <li>
-                        <p>Infringe on the intellectual property rights of others.</p>
-                    </li>
-                    <li>
-                        <p>Upload, transmit, or share any content that is unlawful, harmful, threatening, abusive,
-                            defamatory, or otherwise objectionable.</p>
-                    </li>
-                    <li>
-                        <p>
-                            Engage in any conduct that could disrupt, damage, or interfere with the functionality of our
-                            website.</p>
-                    </li>
-                </ol>
-
-                <h3 class="text-center p-4"> 3. Privacy Policy</h3>
-                <p>
-                    Our Privacy Policy outlines how we collect, use, and disclose your personal information. By using
-                    our website, you consent to the practices described in our Privacy Policy, which can be found
-                    <a class="text reset" href="./privacy-policy.html">here</a>.
-                </p>
-
-
-                <h3 class="text-center p-4">4. Links to Third-Party Websites</h3>
-                <p>
-                    Our website may contain links to third-party websites. We are not responsible for the content or
-                    practices of these websites and encourage you to review their terms and privacy policies.
-                </p>
-
-                <h3 class="text-center p-4">5. Limitation of Liability</h3>
-                <p>
-                    <strong>Sally Bee Ph&Design </strong> is not liable for any direct, indirect, incidental,
-                    consequential, or punitive damages arising out
-                    of your use of our website. This includes but is not limited to loss of data, revenue, or profits.
-                </p>
-
-                <h3 class="text-center p-4">6. Changes to Terms and Conditions</h3>
-                <p>
-                    We reserve the right to modify these terms and conditions at any time. It is your responsibility to
-                    review them periodically. Continued use of our website after changes are made constitutes acceptance
-                    of the modified terms.
-                </p>
-
-                <h3 class="text-center p-4">7. Governing Law</h3>
-                <p>
-                    These terms and conditions are governed by and construed in accordance with the laws of
-                    <strong>Argentina</strong>. Any disputes arising from or in connection with these terms shall be
-                    subject to the exclusive jurisdiction of the courts in <strong>Argentina</strong>.
-                </p>
-                <p>If you have any questions or concerns regarding these terms and conditions, please contact us using
-                    our online form.</p>
-                <p> <em>Thank you for visiting Sally Bee Ph&Design!</em></p>
-
-
-            </article>
+            <p class="carrito-comprado">Thank you for buying! <i class="bi bi-emoji-laughing"></i> </p>
         </section>
-
-
-
     </main>
 
-    <footer class="container-fluid text-center mt-auto">
+
+
+
+
+    <footer class=" container-fluid text-center mt-auto">
         <div class="row p-5 pb-2  text-white justify-content-evenly">
             <div class="col-sm-12 col-lg-3">
                 <div><a href="#"><img src="../assets/logo-sinfondo.png"
                             alt="Representative brand logo. Reads Sally Bee PH & Design."></a></div>
                 <div class="mb-3">
-                    <a class="text-secondary-emphasis text-decoration-none" href="">Rosario, Argentina</a>
-                </div>
-                <div class="mb-3">
-                    <a class="text-secondary-emphasis text-decoration-none" href=""></a>
+                    <a class="text-secondary-emphasis text-decoration-none"
+                        href="https://maps.app.goo.gl/my8rAHaybL3Z8z2f6" target="_blank">Rosario, Argentina</a>
                 </div>
             </div>
             <div class="col-sm-12 col-lg-3">
                 <p class="h5 mb-3">Links</p>
                 <div class="mb-3">
-                    <a class="text-secondary-emphasis text-decoration-none" href="./terms-and-conditions.html">Terms &
-                        Conditions</a>
+                    <a class="text-secondary-emphasis text-decoration-none" target="_blank"
+                        href="./terms-and-conditions.html">Terms & Conditions</a>
                 </div>
                 <div class="mb-3">
-                    <a class="text-secondary-emphasis text-decoration-none" href="#">Privacy Policy</a>
+                    <a class="text-secondary-emphasis text-decoration-none" target="_blank"
+                        href="./privacy-policy.html">Privacy Policy</a>
                 </div>
-
             </div>
             <div class="col-sm-12 col-lg-3">
                 <p class="h5 mb-3">Contactanos</p>
