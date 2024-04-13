@@ -78,6 +78,11 @@
 
 }
 
+.boton-carrito.active .numerito {
+    background-color: white;
+    color: map-get($map: $colors, $key: color2);
+}
+
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
@@ -145,4 +150,9 @@
 
 .total {
     margin: 0;
+}
+
+
+.disabled {
+    display: none;
 }

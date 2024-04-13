@@ -53,9 +53,11 @@
                 <ul class="menu-shop">
                     <li><a class="boton-volver" href="./shop.html">
                             <i class="bi bi-arrow-return-left"></i> Continue shopping </a></li>
-                    <li><button class="boton-carrito boton-menu active text-start" href="./carrito.html">
-                            <i class="bi bi-cart-fill"></i> My cart
-                            <span class="numerito">0</span></button></li>
+                    <div class="div-boton-carrito">
+                        <li><button class="boton-carrito boton-menu active text-start" href="./carrito.html">
+                                <i class="bi bi-cart-fill"></i> My cart
+                                <span class="numerito">0</span></button></li>
+                    </div>
                 </ul>
             </section>
         </aside>
@@ -64,7 +66,7 @@
             <h2 class="titulo-principal">My cart</h2>
             <div class="contenedor-carrito">
                 <p class="carrito-vacio">Your cart is empty <i class="bi bi-emoji-frown"></i> </p>
-                <div class="carrito-productos">
+                <div class="carrito-productos disabled">
                     <div class="carrito-producto">
                         <img class="carrito-producto-imagen" src="../assets/images/naturaleza/vnaturaleza10.jpg" alt="">
                         <div class="carrito-producto-titulo">
@@ -108,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="carrito-acciones">
+            <div class="carrito-acciones disabled">
                 <div class="carrito-acciones-izquierda">
                     <button class="carrito-acciones-vaciar">Empty my cart</button>
                 </div>
@@ -191,7 +193,7 @@
         </div>
 
     </footer>
-
+    <script src="../script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

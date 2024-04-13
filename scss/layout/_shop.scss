@@ -71,6 +71,18 @@ aside {
 
 }
 
+.div-boton-carrito {
+    margin-top: 2rem;
+}
+
+.numerito {
+    background-color: map-get($map: $colors, $key: color2);
+    color: white;
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+}
+
 .menu-shop {
     display: flex;
     flex-direction: column;
@@ -130,8 +142,4 @@ aside {
 .producto-add:hover {
     background-color: map-get($map: $colors, $key: color4);
     color: white;
-}
-
-.disabled {
-    display: none;
 }
